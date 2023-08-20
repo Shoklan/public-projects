@@ -4,7 +4,7 @@ A Place to Store Notebooks, Work in Progress Projects and Incomplete Project Ide
 
 | Project                                  | Directory                          |  Progress |
 | -----------------------------------------| ---------------------------------- | ----------|
-| Deep Learning Manages my Wallpapers      | [\WallpaperManager]                | Minimal Viable Project     |
+| Deep Learning Picks My Wallpapers      | [\WallpaperManager]                | Minimal Viable Project     |
 | Sae of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned          |
 
 
