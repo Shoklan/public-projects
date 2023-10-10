@@ -2,10 +2,10 @@
 A Place to Store Notebooks, Work in Progress Projects and Incomplete Project Ideas
 
 
-| Project                                  | Directory                          |  Progress |
-| -----------------------------------------| ---------------------------------- | ----------|
-| Deep Learning Picks My Wallpapers      | [\WallpaperManager]                | Minimal Viable Project     |
-| Sae of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned          |
+| Project                                  | Directory                          |  Progress                  |
+| -----------------------------------------| ---------------------------------- | -------------------------- |
+| Deep Learning Picks My Wallpapers        | [\WallpaperManager]                | Version 1                  |
+| Sae of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned                  |
 
 
 
