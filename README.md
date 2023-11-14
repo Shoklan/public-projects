@@ -5,7 +5,7 @@ A Place to Store Notebooks, Work in Progress Projects and Incomplete Project Ide
 | Project                                  | Directory                          |  Progress                  |
 | -----------------------------------------| ---------------------------------- | -------------------------- |
 | Deep Learning Picks My Wallpapers        | [\WallpaperManager]                | Version 1                  |
-| Sae of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned                  |
+| Sea of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned                  |
 
 
 
