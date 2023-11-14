@@ -51,6 +51,7 @@ while len(imgs) < 100:
 df = pd.concat(frames).reset_index(drop=True)
 
 # ... and download them locally for use.
+print('Downloading Images...')
 for i,r in df.iterrows():
     imgs[i].save(
         str(storagePath) + '/' + str(i).zfill(4) + '.' + r.file_type.split('/')[-1]
