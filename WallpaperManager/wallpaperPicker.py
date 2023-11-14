@@ -35,7 +35,7 @@ print('Calling API for results...')
 apiResults = callAPI(page=7)
 for i,r in apiResults.iterrows():
     img = collectImage(r.path)
-    img.save(str(dataPath/r.id) + '.' + r.file_type.split('/')[-1])
+    img.save(str(storagePath/r.id) + '.' + r.file_type.split('/')[-1])
 
 
 for file in storagePath.glob("*[jpeg|png]"):
