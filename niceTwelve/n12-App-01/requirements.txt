@@ -1,0 +1,5 @@
+nicegui==1.3.18 # There are compatability bugs beyond this point
+plotly==5.15.0
+yfinance
+# transformers
+# uvicorn[standard]==0.17.*
