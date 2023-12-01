@@ -13,6 +13,7 @@ import os
 import datetime
 from pathlib import Path
 import uuid
+import secrets
 from dotenv import load_dotenv
 from helpers import collectImage, callAPI
 
@@ -30,12 +31,18 @@ modelName = os.getenv('CURRENT_MODEL')
 
 
 nLearn = load_learner(dataPath/f'model/{modelName}')
+page = secrets.randbelow(500)
 print('Loaded model...')
-print('Calling API for results...')
-apiResults = callAPI(page=7)
+print(f'Calling API for results for page {page}...')
+
+apiResults = callAPI(page=page)
 for i,r in apiResults.iterrows():
-    img = collectImage(r.path)
-    img.save(str(storagePath/r.id) + '.' + r.file_type.split('/')[-1])
+    try:
+        img = collectImage(r.path)
+        img.save(str(storagePath/r.id) + '.' + r.file_type.split('/')[-1])
+    except Exception as e:
+        print(e)
+        continue
 
 
 for file in storagePath.glob("*[jpeg|png]"):

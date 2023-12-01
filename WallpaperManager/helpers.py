@@ -4,6 +4,7 @@ import pandas as pd
 from PIL import Image
 from io import BytesIO
 
+
 def collectImage( url ):
     return Image.open(
         BytesIO(requests.get(url).content))\
