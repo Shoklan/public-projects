@@ -7,6 +7,7 @@ A Place to Store Notebooks, Work in Progress Projects and Incomplete Project Ide
 | Deep Learning Picks My Wallpapers        | [\WallpaperManager]                | Version 1                  |
 | Sea of Thieves Map Finder                | [\SoTMapFinder]                    | Abandoned                  |
 | 12 Data Science Apps In NiceGui          | [\niceTwelve]                      | In Progress                |
+| Moral Foundations Values Replication     | [\MoralFoundations]                | Version 1                  |
 
 
 
