@@ -3,7 +3,6 @@
 #   Author: Collin Mitchell
 #     Date: 2023 October 10th
 #  Version: 1.0
-#     Info: Program designed to use a Deep Learning model to filter and select wallpapers
 #           This is the second part which does the pulling + filtering.
 #  History: 
 #           [2023/10/10]
@@ -31,7 +30,7 @@ storagePath = Path(os.getenv('STORAGE_PATH'))
 modelName = os.getenv('CURRENT_MODEL')
 
 
-nLearn = load_learner(dataPath/f'model/{modelName}')
+nLearn = load_learner(f'{modelName}')
 page = secrets.randbelow(500)
 print('Loaded model...')
 print(f'Calling API for results for page {page}...')
@@ -50,8 +49,8 @@ for file in storagePath.glob("*[jpeg|png]"):
     prediction = nLearn.predict(file)[0].strip()
     if prediction == 'YES':
         newName = datetime.now().strftime('%Y%m%d') + "_" + str(uuid.uuid1()).split('-')[0]
-        print(file, newName, Path(dataPath, 'Desktop', newName))
-        file.replace(Path(dataPath, 'Desktop', newName))
+        print(file, newName, Path(dataPath, newName))
+        file.replace(Path(dataPath, newName))
 
 for file in storagePath.glob("*[jpeg|png]"):
     file.unlink()
