@@ -7,9 +7,9 @@ If you would like to run this yourself from the beginning, then the order of run
 3. Wallpaper Picker.
 
 Make sure that you setup the Environmental Variables:
-    * `WALLPAPER_PATH` is the parent directory where the program does the work.
-    * `DESELECTED_PATH` is the folder where you are storing wallpaper rejects for future modeling.
-    * `STORAGE_PATH` is the folder where temporary files are downloaded and managed.
+ * `WALLPAPER_PATH` is the parent directory where the program does the work.
+ * `DESELECTED_PATH` is the folder where you are storing wallpaper rejects for future modeling.
+ * `STORAGE_PATH` is the folder where temporary files are downloaded and managed.
 
 If you are running this after a model has been built then you can simply run the **Wallpaper Picker** program and it will pull a new collection.
 Please keep in mind that you will want a directory called `Desktop` in your `WALLPAPER_PATH` folder as this is a a hard coded expectation. If you would like to change this - or update it with a new Environmental variable - then this is referenced in `wallpaperPicker.py` line 46.
