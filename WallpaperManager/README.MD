@@ -2,9 +2,9 @@
 
 This project has an associated blog post which can be found [here](https://orgulo.us/posts/nbks/2023-08-24-using-deep-learning-to-pick-my-wallpapers.html#dealing-with-the-wallhaven-api) which discusses the overall intent of the project.
 If you would like to run this yourself from the beginning, then the order of running the programs is:
-    1. Wallpaper Puller.
-    2. Wallpaper Modeler.
-    3. Wallpaper Picker.
+1. Wallpaper Puller.
+2. Wallpaper Modeler.
+3. Wallpaper Picker.
 
 Make sure that you setup the Environmental Variables:
     * `WALLPAPER_PATH` is the parent directory where the program does the work.
